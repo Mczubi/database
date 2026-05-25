@@ -176,8 +176,6 @@ custom_formats:
   score: 0
 - name: Not English
   score: -200000
-- name: x265 (Bluray)
-  score: -400000
 - name: ASL
   score: -999999
 - name: AV1
@@ -202,8 +200,6 @@ custom_formats:
   score: -999999
 - name: VVC
   score: -999999
-- name: x265 (WEB)
-  score: -999999
 - name: Xvid
   score: -999999
 custom_formats_radarr:
@@ -219,6 +215,8 @@ custom_formats_radarr:
   score: 1000
 - name: Special Edition
   score: 1000
+- name: x265 (Bluray)
+  score: -400000
 - name: 3D
   score: -999999
 - name: B&W
@@ -233,9 +231,15 @@ custom_formats_radarr:
   score: -999999
 - name: Upscale
   score: -999999
+- name: x265 (WEB)
+  score: -999999
 custom_formats_sonarr:
 - name: Season Pack
   score: 10
+- name: x265 (Bluray)
+  score: 0
+- name: x265 (WEB)
+  score: 0
 - name: Remux (Source)
   score: -999999
 - name: TV Extras
