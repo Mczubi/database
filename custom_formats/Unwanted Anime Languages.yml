@@ -1,0 +1,34 @@
+name: Unwanted Anime Languages
+description: ''
+tags:
+- Anime
+- Audio
+conditions:
+- exceptLanguage: false
+  language: german
+  name: German
+  negate: false
+  required: false
+  type: language
+- exceptLanguage: false
+  language: french
+  name: French
+  negate: false
+  required: false
+  type: language
+- name: Ulysse
+  type: release_title
+  required: false
+  negate: false
+  pattern: Ulysse
+- name: LYPSG
+  type: release_title
+  required: false
+  negate: false
+  pattern: LYPSG
+- name: CEBRAY
+  type: release_title
+  required: false
+  negate: false
+  pattern: CEBRAY
+tests: []

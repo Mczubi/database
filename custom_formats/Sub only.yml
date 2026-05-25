@@ -1,0 +1,17 @@
+name: Sub only
+description: ''
+tags:
+- Anime
+- Subtitles
+conditions:
+- name: No Dual Audio
+  type: release_title
+  required: true
+  negate: true
+  pattern: Dual Audio
+- name: Sub detected
+  type: release_title
+  required: true
+  negate: true
+  pattern: Subtitles
+tests: []

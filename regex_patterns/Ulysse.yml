@@ -1,0 +1,7 @@
+name: Ulysse
+pattern: .*Ulysse.*
+description: French release group
+tags:
+- Anime
+- Release Group
+tests: []

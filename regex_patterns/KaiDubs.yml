@@ -1,0 +1,6 @@
+name: KaiDubs
+pattern: \b(KaiDubs)\b
+description: ''
+tags:
+- Anime
+tests: []

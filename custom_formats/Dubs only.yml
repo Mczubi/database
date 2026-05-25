@@ -1,0 +1,42 @@
+name: Dubs only
+description: ''
+tags:
+- Audio
+- Anime
+conditions:
+- name: Dubbed
+  negate: false
+  pattern: Dual Audio
+  required: false
+  type: release_title
+- name: Golumpa
+  negate: false
+  pattern: Golumpa
+  required: false
+  type: release_title
+- name: KaiDubs
+  negate: false
+  pattern: KaiDubs
+  required: false
+  type: release_title
+- name: KamiFS
+  negate: false
+  pattern: KamiFS
+  required: false
+  type: release_title
+- name: KS (Not Dual Audio)
+  negate: false
+  pattern: KS (Not Dual Audio)
+  required: false
+  type: release_title
+- name: torenter69
+  type: release_title
+  required: false
+  negate: false
+  pattern: torenter69
+- name: Yamei
+  type: release_title
+  required: false
+  negate: false
+  pattern: Yameii
+tests: []

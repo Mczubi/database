@@ -1,0 +1,6 @@
+name: Subtitles
+pattern: ^(?!.*(Sub(title)?)).*
+description: Checks if subtitles are in text
+tags:
+- Subtitles
+tests: []

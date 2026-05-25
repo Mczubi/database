@@ -1,0 +1,30 @@
+name: Anime Dual Audio
+description: ''
+tags:
+- Anime
+- Audio
+conditions:
+- name: Dual Audio
+  type: release_title
+  required: true
+  negate: false
+  pattern: Dual Audio
+- name: Korean
+  type: language
+  required: false
+  negate: false
+  language: korean
+  exceptLanguage: false
+- name: Japanese
+  type: language
+  required: false
+  negate: false
+  language: japanese
+  exceptLanguage: false
+- name: Chinese
+  type: language
+  required: false
+  negate: false
+  language: chinese
+  exceptLanguage: false
+tests: []

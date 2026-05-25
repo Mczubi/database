@@ -8,6 +8,7 @@ tags:
 - Lossy Audio
 - h265
 - x265
+- Builtin
 upgradesAllowed: true
 minCustomFormatScore: 20000
 upgradeUntilScore: 888888

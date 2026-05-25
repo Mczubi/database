@@ -17,6 +17,8 @@ tags:
 - Lossless Audio
 - x265
 - h265
+- Builtin
+- Sync
 upgradesAllowed: true
 minCustomFormatScore: 20000
 upgradeUntilScore: 888888
