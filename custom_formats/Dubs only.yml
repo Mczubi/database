@@ -30,13 +30,18 @@ conditions:
   required: false
   type: release_title
 - name: torenter69
-  type: release_title
-  required: false
   negate: false
   pattern: torenter69
+  required: false
+  type: release_title
 - name: Yamei
+  negate: false
+  pattern: Yameii
+  required: false
+  type: release_title
+- name: Koten Gars
   type: release_title
   required: false
   negate: false
-  pattern: Yameii
+  pattern: Koten_Gars
 tests: []
